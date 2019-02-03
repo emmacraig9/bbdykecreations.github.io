@@ -1,69 +1,66 @@
-# Holo Alfa Jekyll theme [![Build Status](https://travis-ci.org/steinvc/holo-alfa.svg?branch=master)](https://travis-ci.org/steinvc/holo-alfa) #
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
+</p>
 
-![Screenshot](http://i.imgur.com/Gi46aag.jpg)
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. Created for free and fun by Stijn.
+***
 
-See it in action: http://steinvc.github.io/holo-alfa/.
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
 
-## Feature highlights ##
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
 
-* Mobile first design
-* Extensive content styling
-* Responsive video's (using [FitVids.JS](http://fitvidsjs.com/))
-* Support for authors and guest authors
-* Read time on articles
-* Disqus comments
-* Automatic [og metadata](http://ogp.me/)
-* Automatic archive page (without plugins)
-* Automatic sitemap en RSS feed
-* Contact page (with working email form)
-* A lot of (optional) customization options (all in `_config.yml`)
+## What has inside
 
-And much more.
+- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
+- Tests with [Travis](https://travis-ci.org/)
+- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
+- No JS. :sunglasses:
 
-## Getting started ##
+## Setup
 
-If you're new to Jekyll, check out http://jekyllrb.com/ and read up on Jekyll. It's worth it.
+0. :star: to the project. :metal:
+2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
+4. Write some posts :bowtie:
 
-* [Another great resource to learn about Jekyll](http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
-* [Github's guide to using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/)
+If you want to test locally on your machine, do the following steps also:
 
-If you run one of the latest versions of Jekyll, this theme will work with no* problems.
+1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run `bundle install`
+4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
+5. Open it in your browser: `http://localhost:4000`
+6. Test your app with `bundle exec htmlproofer ./_site`
+7. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
 
-### Installing ##
+## Settings
 
-As simple as forking the repository, and then clone it so you can edit the files locally.
-
-### Configuration ###
-
-Edit `_config.yml`!
-
-You can find `_config.yml` in your site's root directory. This configuration file contains some necessary settings and some optional customization settings. **All settings are explained in `_config.yml` itself.**
-
-There are some customizations that can't be done in `_config.yml`. These include:
-
-* Editing the About, Contact and Archive page.
-* Adding or removing pages from the navigation. This can be done in `\_includes\navigation.html`.
-* The "thanks" page after a message has been send through the contact page: `thanks.md`
-* The gradient on cover images: `\_includes\gradient.css` (this is explained in `_config.yml`).
-
-Also make sure to replace the placeholder favicons and the `\img\og-image.jpg` with your own.
-
-### Start the Jekyll server ###
-
-Run this command at the root of your site:
+You must fill some informations on `_config.yml` to customize your site.
 
 ```
-$ jekyll serve
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
+...
+
+and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
 ```
 
-> To run Jekyll in a way that matches the GitHub Pages build server, run Jekyll with Bundler. Use the command `bundle exec jekyll serve`.
+## How To?
 
-When everything is OK, your site should now be available at `http://localhost:4000`.
-
-That's it.
+Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 
 ---
 
-[MIT license](http://opensource.org/licenses/MIT)
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
