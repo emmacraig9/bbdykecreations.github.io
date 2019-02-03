@@ -16,7 +16,7 @@ picture: assets/images/homepage.jpg
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: www.bbdykecreations.com
+url: https://emmacraig9.github.io/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -58,7 +58,7 @@ authors:
         name: Emma Craig
         bio: I'm a bb dyke. I create things.
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/homepage.jpg
     #     twitter: johndoe
     # # jamesfoster:
     #     name: James Foster
