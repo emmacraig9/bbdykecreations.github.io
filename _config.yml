@@ -1,22 +1,22 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Emma Craig
+bio: I'm a bb dyke. I create things. 
 
 # twitter summary info
-description: A blog about technology and stuff related
+# description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/homepage.jpeg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+# resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: www.bbdykecreations.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -31,41 +31,41 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  # categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # google: mygoogle
-# instagram: myinstagram
+instagram: bbdykecreations
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: ecraig9
 # youtube: myyoutube
-# spotify: myspotify
-github: mygithub
+spotify: 129557894?si=9OeTZpNvRt-TAy5znEBuJA
+# github: mygithub
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+# email: myemail@gmail.com
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Emma Craig
+        bio: I'm a bb dyke. I create things.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+    #     twitter: johndoe
+    # # jamesfoster:
+    #     name: James Foster
+    #     bio: A Man who develops software with coffee
+    #     external-image: false
+    #     picture: assets/images/james.jpg
+    #     twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -81,25 +81,25 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
-# do you want to show the "read time" of the posts?
-read-time: true
+# # do you want to show the "read time" of the posts?
+# read-time: true
 
-# do you want to show the "tags" inside the posts?
-show-tags: true
+# # do you want to show the "tags" inside the posts?
+# show-tags: true
 
-# related posts inside a post?
-related: true
+# # related posts inside a post?
+# related: true
 
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+# # Display links for next and previous posts for the specified categories
+# post-advance-links: [blog]
 
-# show author block at the end of a post ?
-show-author: true
+# # show author block at the end of a post ?
+# show-author: true
 
-# do you want some animations?
-animation: true
+# # do you want some animations?
+# animation: true
 
 plugins:
   - jekyll-seo-tag
